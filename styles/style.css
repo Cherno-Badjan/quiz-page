@@ -27,6 +27,9 @@ body {
     font-size: x-large;
 }
 
+#results-section {
+    color: yellow;
+}
 main {
     display: flex;
     flex-direction: column;

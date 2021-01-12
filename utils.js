@@ -1,3 +1,3 @@
-export function (rightAnswer) {
-    return answer.charAt(0).toUpperCase() === 'Y'
+export function rightAnswer(answer) {
+    return answer.charAt(0).toUpperCase() === 'Y';
 };
