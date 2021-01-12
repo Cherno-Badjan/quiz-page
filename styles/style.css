@@ -24,11 +24,23 @@ body {
 
 .heading {
     font-family: 'Potta One', cursive;
-    font-size: x-large;
+    font-size: 3rem;
+    color: gold;
 }
 
 #results-section {
-    color: yellow;
+    color:red;
+}
+
+#submit-button {
+    background-color: gold;
+    border-radius: 25px;
+}
+
+.instructions {
+    color: purple;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
 }
 main {
     display: flex;
@@ -37,8 +49,9 @@ main {
     align-items: center;
     margin-bottom: calc(var(--footer-height));
     background-image: url('https://cdn.pixabay.com/photo/2019/03/24/12/19/harry-potter-4077473_1280.png');
-    color:green;
     font-weight: bold;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -55,6 +68,7 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    color: green;
 }
 
 header {

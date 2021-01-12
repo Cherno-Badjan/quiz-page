@@ -30,6 +30,11 @@ submitButton.addEventListener('click', () => {
 
     const percentage = Math.round(correctAnswer / 3 * 100);
 
-    const results = `Well ${userName}, You scored ${percentage}% right!`;
-    resultsSection.textContent = results;
-});
+    if (percentage === 100) {
+        const results = `Galloping Gargoyles ${userName}!!!!, You got ${correctAnswer}/3 right. Your score is ${percentage}%!`;
+        resultsSection.textContent = results;
+    } else {
+        const fail = `You tried ${userName} but unfortunately your score is ${percentage}%. You are not a Potter-Head. Avada Kedavra!`;
+        resultsSection.textContent = fail;
+    }
+}); 
