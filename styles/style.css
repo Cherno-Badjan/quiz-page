@@ -18,8 +18,13 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: var(--color2);
+}
+
+.heading {
+    font-family: 'Potta One', cursive;
+    font-size: x-large;
 }
 
 main {
@@ -28,6 +33,10 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-image: url('https://cdn.pixabay.com/photo/2019/03/24/12/19/harry-potter-4077473_1280.png');
+    color:green;
+    font-weight: bold;
+
 }
 
 section {
