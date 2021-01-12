@@ -28,6 +28,8 @@ submitButton.addEventListener('click', () => {
 
     if (!rightAnswer(answerThree)) ++correctAnswer;
 
-    const results = `Well ${userName}, You scored ${correctAnswer} right!`;
+    const percentage = Math.round(correctAnswer / 3 * 100);
+
+    const results = `Well ${userName}, You scored ${percentage}% right!`;
     resultsSection.textContent = results;
 });
